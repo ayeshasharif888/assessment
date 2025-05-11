@@ -32,9 +32,11 @@ export default function OpuSection() {
           </div>
         </div>
         <div>
-          <button className="px-4 py-2 rounded-xl border bg-[#09132F] text-sm">
-            Add oocytes & OPU details
-          </button>
+          <button class="bg-[linear-gradient(113.96deg,_rgba(255,231,231,0.46)_0%,_rgba(255,255,255,0.47)_7.3%,_rgba(0,0,0,0)_23.96%,_rgba(255,255,255,0.3)_57.81%,_rgba(115,129,255,0.45)_81.28%,_rgba(0,7,73,0.31)_100%)] text-white rounded-xl p-[1px]">
+              <span class="flex w-full bg-[#08122E] text-white rounded-xl py-2 px-4 text-sm">
+                Add oocytes & OPU details
+              </span>
+            </button>
           <p className="text-sm mt-2 text-[#B1BBE0]">
             No oocytes collected,{" "}
             <span className="text-l underline cursor-pointer text-[#7F6BF3]">close cycle</span>
